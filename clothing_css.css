@@ -1,0 +1,309 @@
+
+@media only screen and (max-width: 1920px){
+    /*nav*/
+    .position-absolute{
+        position: absolute;
+        top: 0px;
+        
+    }
+    
+    .nav_logo{
+        height: 44px;
+
+    }
+    
+    a{
+        text-decoration: none!important;
+    }
+    
+    a:hover{
+        text-decoration: none!important;
+    }
+    
+    .navbar-toggler{
+        margin: auto;
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+        background-color:#79B775!important;
+        color: #ffffff!important;
+    }
+    
+    .nav-link{
+        color:#79B775!important;
+    }
+    
+    .nav-link.top-link{
+        color:#000000!important;
+    }
+    
+    .nav-link.top-link:hover{
+        color:#79B775!important;
+    }
+    
+    .icon_box{
+        right:20px;
+        box-sizing: border-box;
+    }
+
+    .collapse.navbar-collapse{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .icon_box{
+        padding-top: 10px;
+    }
+
+    .nav_icon{
+        height: 36px;
+        width: 36px;
+        margin: 0x 5px; 
+    }
+    
+    .nav_icon:hover{
+        -webkit-filter: invert(80%); 
+        filter: invert(80%);
+    }
+     
+    /*carousel*/
+    .carousel{
+        height: 427.28px;
+    }
+    
+    /*section_title*/
+    .sec_title{
+        margin-top: 80px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    /*theme*/
+    .theme_topic{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .nav-link.mid-link{
+    
+    }
+    
+    .nav-link.mid-link:hover{
+        border-bottom: 3px solid #79B775!important;
+    }
+    
+    .theme_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .theme_box{
+        height: 100px;
+        width: 230px;
+        margin: 0px 10px;
+        text-align: center;
+        justify-items: center;
+        -webkit-filter: opacity(100%); /* Safari */
+        filter: opacity(100%);
+    }
+    
+    .theme_box:hover{
+        -webkit-filter: opacity(70%); /* Safari */
+        filter: opacity(70%);
+    }
+    
+    .theme_word{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        position: relative;
+        top: -50px;
+        color: #ffffff;
+        text-shadow: #000000 0.1em 0.1em 0.2em;
+    }
+    
+    /*fahsion*/
+    .fashion_plan{
+        height: 360px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .fashion_box{
+        height: 360px;
+        width: 320px;
+        box-sizing: border-box;
+        border-radius: 8px;
+        text-align: center;
+        padding-top: 10px;
+        background-color: none;
+    }
+    
+    .fashion_box:hover{
+        -webkit-transition: background-color 0.4s ease-in-out;
+        -moz-transition: background-color 0.4s ease-in-out;
+        -o-transition: background-color 0.4s ease-in-out;
+        transition: background-color 0.4s ease-in-out;
+        background-color: #f8e098;
+    }
+    
+    .fashion_img{
+        /* height: 300px; */
+        width: 95%;
+    }
+    
+    .fashion_word{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        color: #000000;
+        position: relative;
+        top: 10px;
+    }
+    
+    .see_more_box{
+        height: 50px;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .see_more_btn{
+        box-sizing: border-box;
+        padding: 10px;
+        border: 2px solid #79B775;
+        border-radius: 8px;
+        color: #79B775;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
+    
+    .see_more_btn:hover{
+        border: 2px solid #ffab40;
+        color: #ffab40;
+        text-decoration: none;
+        box-shadow: 0 0 3px 5px #fff2cc;
+        top: 4px;
+    }
+    
+    footer{
+        height: 100px;
+        background-image: url(./images/leaf_bg.jpg);
+        background-repeat: repeat;
+        text-align: center;
+        padding-top: 40px;
+    }
+    }
+    
+    
+@media only screen and (max-width: 992px){
+    /*nav*/    
+    .collapse.navbar-collapse{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /*carousel*/
+    .carousel{
+        height: 300px;
+    }
+    
+    /*section_title*/
+    .sec_title{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .theme_word{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        position: relative;
+        top: -50px; 
+        color: #ffffff;
+        text-shadow: #000000 0.1em 0.1em 0.2em;
+    }
+
+    
+}
+
+@media only screen and (max-width: 500px){
+    /*nav*/         
+    .collapse.navbar-collapse{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /*carousel*/
+    .carousel{
+        height: 200px;
+    }
+
+    /*section_title*/
+    .sec_title{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .theme_word{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        position: relative;
+        top: -36px; 
+        color: #ffffff;
+        text-shadow: #000000 0.1em 0.1em 0.2em;
+    }
+    /*fashion card*/  
+    
+    .fashion_plan{
+        height: 1800px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fashion_box{
+        height: 550px;
+        width: 80%;
+        box-sizing: border-box;
+        border-radius: 8px;
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 20px;
+        background-color: none;
+    }
+
+    .fashion_box:hover{
+        -webkit-transition: background-color 0.4s ease-in-out;
+        -moz-transition: background-color 0.4s ease-in-out;
+        -o-transition: background-color 0.4s ease-in-out;
+        transition: background-color 0.4s ease-in-out;
+        background-color: #f8e098;
+    }
+    
+    .fashion_img{
+        width: 95%;
+    }
+    
+    .fashion_word{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        color: #000000;
+        position: relative;
+        top: 10px;
+    }
+    
+}
